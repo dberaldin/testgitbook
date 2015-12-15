@@ -1,4 +1,4 @@
-My Awesome Book
+Test book
 =======
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Ok, this is just a test book to get started using GitBook and its GitHub integration. So don't expect to find anything useful in it (at least for the time being).
