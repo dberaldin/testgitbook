@@ -32,5 +32,40 @@ section.normal li {
     font-size: 1.1em;
 }
 
+header {
+    border-bottom: 3px solid #eb5137;
+}
 
+.container {
+    width: 95%;
+}
 
+.book-search {
+    top: 0 !important;
+}
+
+.book-summary {
+    background: #fff !important;
+}
+
+ul.summary {
+    top: 30px !important;
+}
+
+ul.summary li.active > a,
+ul.summary li.active > a:hover,
+ul.summary li > a:hover {
+    color: #eb5137 !important;
+}
+
+ul.summary li.divider {
+    background-color:  #eb5137;
+}
+
+a.gitbook-link {
+    display: none !important;
+}
+
+footer {
+    background-color: #fff !important;
+}

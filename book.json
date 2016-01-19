@@ -31,14 +31,25 @@
         "footerTemplate": "Copyright (c) OrientDB LTD"
     },
     "plugins": [
-        "ga", "anchors", "collapsible-menu", "versions", "edit-link", "addcssjs"
+        "ga", "anchors", "collapsible-menu", "versions", "edit-link", "addcssjs", "layout"
     ],
     "pluginsConfig": {
         "ga": {
             "token": "UA-28543690-2"
         },
 	"addcssjs":{
-		"css": ["css/custom.css"]
+		"css": [
+            "css/wp.bootstrap.css",
+             "css/fancybox.min.css",
+             "css/style.css",
+             "css/custom.css"
+         ],
+        "js": [
+            "js/jquery.min.js",
+            "js/jquery-migrate.min.js",
+            "js/bootstrap.min.js",
+            "js/bootstrapwp.demo.js"
+           ]
 	},
 	"versions": {
 		"gitbookConfigURL": "http://orientdb.com/docs/book.json",
@@ -47,14 +58,18 @@
 			{ "value": "http://orientdb.com/docs/2.0/", "text": "Version 2.0.x" },
 			{ "value": "http://orientdb.com/docs/2.1", "text": "Version 2.1.x" },
 			{ "value": "http://orientdb.com/docs/last", "text": "Version last", "selected": true }
-		] 
+		]
     	},
-	"edit-link": {
-                "base": "https://github.com/orientechnologies/orientdb-docs/edit/master",
-                "label": "Edit This Page"
-        },
+    	"edit-link": {
+                    "base": "https://github.com/orientechnologies/orientdb-docs/edit/master",
+                    "label": "Edit This Page"
+            },
         "github": {
             "url": "https://github.com/orientechnologies/orientdb"
+        },
+        "layout": {
+            "headerPath" : "layout/header.html",
+        	"footerPath" : "layout/footer.html"
         }
     }
 }
