@@ -1,11 +1,13 @@
-# Console - `CLUSTERS STATUS`
+<!-- proofread 2015-01-07 SAM -->
+
+# Console - `CLUSTER STATUS`
 
 Displays the status of the cluster in distributed configuration.
 
 **Syntax:**
 
 ```
-CLUSTERS STATUS
+CLUSTER STATUS
 ```
 
 **Example:**
@@ -39,4 +41,4 @@ CLUSTERS STATUS
   }</code>
   </pre>
 
-This is a command of the Orient console. To know all the commands go to [Console-Commands](Console-Commands.md).
+>For more information on other commands, see [Console Commands](Console-Commands.md).

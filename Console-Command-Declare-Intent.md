@@ -1,23 +1,32 @@
-# Console - DECLARE INTENT
+<!-- proofread 2015-01-07 SAM -->
 
-Declares an intent on current database. Intents are a way to tell to OrientDB what you're going to do.
+# Console - `DECLARE INTENT`
 
-## Syntax
+Declares an intent for the current database. Intents allow you to tell the database what you want to do.
+
+**Syntax**
 
 ```sql
 DECLARE INTENT <intent-name>
 ```
 
-Where:
+- **`<intent-name>`** Defines the name of the intent. OrientDB supports three intents:
+  - *`NULL`* Removes the current intent.
+  - *`MASSIVEINSERT`*
+  - *`MASSIVEREAD`*
 
-- intent-name  The name of the intent. "null" means remove the current intent. Supported ones are:
-- massiveinsert
-- massiveread
+**Examples**
 
-## Example
+- Declare an intent for a massive insert:
 
-```sql
-DECLARE INTENT massiveinsert
-```
+  <pre>
+  orientdb> <code class="lang-sql userinput">DECLARE INTENT MASSIVEINSERT</code>
+  </pre>
 
-This is a command of the Orient console. To know all the commands go to [Console-Commands](Console-Commands.md).
+- After the insert, clear the intent:
+
+  <pre>
+  orientdb> <code class="lang-sql userinput">DECLARE INTENT NULL</code>
+  </pre>
+
+>For more information on other commands, see [Console Commands](Console-Commands.md).

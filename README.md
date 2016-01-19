@@ -5,15 +5,15 @@
 ## Quick Navigation
 
 |Getting Started	|Main Topics    |Developers   |
-|-------------------|---------------|-------------|
-|[Introduction to OrientDB](Tutorial-Introduction-to-the-NoSQL-world.md) | [Basic Concepts](Concepts.md)  | [SQL](SQL.md)|
-|[Installation](Tutorial-Installation.md) | [Supported Data Types](Types.md) | [Gremlin](Gremlin.md) |
+|-----------------------|---------------|-------------|
+|[Introduction to OrientDB](Tutorial-Introduction-to-the-NoSQL-world.md) | [Basic Concepts](Concepts.md)  | [SQL](SQL.md)| 
+|[Installation](Tutorial-Installation.md) | [Supported Data Types](Types.md) | [Gremlin](Gremlin.md) | 
 |[First Steps](Tutorial-Introduction-to-the-NoSQL-world.md) | [Inheritance](Inheritance.md) | [HTTP API](OrientDB-REST.md) |
 |[Troubleshooting](Troubleshooting.md) |[Security](Security.md)| [Java API](Java-API.md)|
 |[Enterprise Edition](Enterprise-Edition.md)| [Indexes](Indexes.md) | [NodeJS](https://github.com/codemix/oriento)|
 | | [ACID Transactions](Transactions.md) | [PHP](https://github.com/orientechnologies/PhpOrient) |
 | | [Functions](Functions.md) | [Python](https://github.com/orientechnologies/pyorient)|
-| | [Caching Levels](Caching.md) | [.NET](https://github.com/orientechnologies/OrientDB-NET.binary) |
+| | [Caching Levels](Caching.md) | [.NET](https://github.com/orientechnologies/OrientDB-NET.binary) | 
 | | [Common Use Cases](Use-Cases.md) | [Other Drivers](Programming-Language-Bindings.md) |
 | | | [Network Binary Protocol](Network-Binary-Protocol.md) |
 | | | [Javadocs](http://www.orientechnologies.com/javadoc/latest/) |
@@ -21,7 +21,7 @@
 ### Operations
 - [Installation](Tutorial-Installation.md)
 - [3rd party Plugins](Plugins.md)
-- [Upgrade](Upgrade.md)
+- [Upgrade](Upgrade.md) 
 - [Configuration](Configuration.md)
 - [Distributed Architecture](Distributed-Architecture.md) (replication, sharding and high-availability)
 - [Performance Tuning](Performance-Tuning.md)
@@ -33,9 +33,9 @@
 ### Quick References
 - [Console](Console-Commands.md)
 - [Studio](Home-page.md) web tool
-- [Workbench](http://orientdb.com/enterprise/last/introduction.html) (Enterprise Edition)
+- [Workbench](http://orientdb.com/enterprise/last/introduction.html) (Enterprise Edition) 
 - [OrientDB Server](DB-Server.md)
-- [Network-Binary-Protocol](Network-Binary-Protocol.md)
+- [Network-Binary-Protocol](Network-Binary-Protocol.md) 
 - [Gephi Graph Analysis Visual tool](Gephi.md)
 - [Rexster Support and configuration](Rexster.md)
 - [Continuous integration](http://helios.orientechnologies.com/)
